@@ -854,6 +854,10 @@ aside:hover ul li:nth-child(3) {
     border-radius: 80%;
   }
 
+  input{
+    width: 100%;
+  }
+
   input[type="submit"] {
   background-color: #000000;
   color:#ffffff;
