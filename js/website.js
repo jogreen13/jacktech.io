@@ -17,4 +17,3 @@ $('img').click( function(){
 
 	$('.full-photo').click( function(){
 		$('.full-photo').fadeOut();
-	})
