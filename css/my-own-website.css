@@ -1,9 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic);
 body {
   padding: 20px;
   box-sizing: border-box;
   font-family: Roboto, Helvetica, Arial, serif;
-  background: url(http://www.hdwallsource.com/img/2014/10/blurred-36379-37207-hd-wallpapers.jpg);
+  background-image: url(../images/background-img1.jpg);
   background-size: cover;
 }
 
@@ -15,9 +16,6 @@ header img {
   border: 5px solid #fff;
 }
 
-body{
-  background-image: url(../images/background-img1.jpg);
-}
 
 .hello{
   margin:0 0 5px 0;
@@ -58,6 +56,10 @@ aside:hover header img {
 
 header {
   text-align: center;
+}
+
+.all{
+  padding: 0 0 0 316px;
 }
 
 header h1 {
@@ -696,7 +698,7 @@ aside:hover ul li:nth-child(3) {
             transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
             @import url(http://fonts.googleapis.com/css?family=Satisfy);
 
-}‘
+}
 }
 .lasvegas {
   font-family: 'Satisfy', cursive;
@@ -728,7 +730,6 @@ aside:hover ul li:nth-child(3) {
   animation-duration:6s;
   animation-delay: 2s;
   animation-direction: alternate;
-  cubic-bezier(0.5, 0.2, 0.3, 1.0)
 }
 
 
@@ -820,6 +821,10 @@ aside:hover ul li:nth-child(3) {
 
 
 
+  .lasvegas{
+    margin: 0 0 0 30px;
+  }
+
   .column{
     background-color: red;
   }
@@ -848,10 +853,9 @@ aside:hover ul li:nth-child(3) {
     color: red;
     text-align: center;
     width: 100%;
-    background-color: transparent;
     text-align: center;
-    padding: 310px 0 60px 0;
-    border-radius: 80%;
+    padding: 50px 0 50px 0;
+}
   }
 
   input{
@@ -862,6 +866,100 @@ aside:hover ul li:nth-child(3) {
   background-color: #000000;
   color:#ffffff;
   width: 100%;
+}
+
+ nav{
+  float: right;
+  line-height: 75px;
+ }
+ 
+
+ nav a{
+  color: #333333;
+  display: block;
+  padding: 50px 130px 0 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 25px;
+ }
+
+ .c-link{
+  color: #333;
+  text-decoration: none;
+  padding: 15px 0 0 448px;
+  font-weight: 700;
+ }
+
+.required,.fname,.lname{
+  width: 100%;
+  background-color:#efefef
+}
+
+.container{
+  text-align: center;
+  padding: 70px 0 0 0;
+  font-size: 19px;
+  font-weight: 300;
+  font-family:"Open Sans";
+}
+
+section{
+  min-height: 500px;
+}
+
+.full-photo{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /*create a window effect*/
+}
+
+.coffee{
+  margin: 0 0 40px 0;
+}
+
+.blog{
+  margin: 0 0 40px 0;
+}
+
+.tea{
+  margin: 0 0 40px 0;
+}
+
+.granular{
+  margin: 0 0 40px 0;
+}
+
+h3{
+  font-size: 42px;
+  font-weight: 300;
+  color:red;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.coffee{
+  background-image: url(../images/coffee.png);
+}
+
+.blog{
+  background-image: url(../images/blog.png);
+}
+
+.tea{
+  background-image: url(../images/tea-time.png);
+}
+
+.granular{
+  background-image: url(../images/granular.png);
+}
+
+.piccaso{
+  background-image: url(../images/piccaso.png);
+}
 
 
  
