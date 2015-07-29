@@ -819,7 +819,11 @@ aside:hover ul li:nth-child(3) {
 /* end keyframes */
 
 
-
+ h1{
+  text-align: center;
+  margin: 80px 0 0 0;
+  font-size: 25px;
+ }
 
   .lasvegas{
     margin: 0 0 0 30px;
@@ -969,12 +973,14 @@ h3{
 }
 
 small{
-  color: #808080
+  color: #808080;
 }
 
 .please-contact{
   padding: 0 0 15px 0;
 }
+
+
 
 
 
